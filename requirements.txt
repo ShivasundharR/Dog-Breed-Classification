@@ -4,3 +4,4 @@ tensorflow-hub
 tf-keras
 numpy
 pillow
+setuptools
