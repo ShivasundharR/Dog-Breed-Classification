@@ -1,6 +1,6 @@
 streamlit
-tensorflow
-tensorflow-hub
+tensorflow==2.20.0
+tensorflow-hub==0.16.1
 tf-keras
 numpy
 pillow
