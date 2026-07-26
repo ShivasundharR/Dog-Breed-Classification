@@ -42,7 +42,8 @@ def process_image(pil_image):
 model = load_model()
 breed_names = load_breed_names()
 st.title("Dog Breed Identifier")
-st.subheader("Upload your dog picture below")
+st.subheader("Find out a dog's breed by uploading a picture!")
+st.text("Upload your dog picture below")
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg"])
 
 if uploaded_file is not None:
